@@ -4,11 +4,19 @@
 			<div style="float: left; height: 29px;">
 				<a href="#">
 					<div style="position: relative; left: 17px; float: left; height: 29px;">
-						<img src="images/NeuroMama_small.png" alt="NEUROMAMA" height="31" width="108">
+						<img src="images/NeuroMama_small.png" alt="NEUROMAMA" height="31">
 					</div>
 				</a>
 				<span style="position: relative; left: 25px; font-family: 'Didact Gothic', sans-serif; font-size: 18px; color: #ffffff">The 21st Century Search Engine, Based on Neuro Technology.</span>
 			</div>
+			<div class="fr">
+	            <form style="width:200px"class="search_neuro cf" target = "_blank"action="http://neuromama.com/index.php?action=search&query=as&type=web">
+					<input type="text" name="query" value="" placeholder="Search on Neuromama.com..." required>
+					<input name="type" value="web" style="display:none">
+					<input name="action" value="search" style="display:none">
+					<button type="submit">Search</button>
+	        	</form> 
+        	</div>
 		</div>
 		
 		<!-- Navigation Items -->

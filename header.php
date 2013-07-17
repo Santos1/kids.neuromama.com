@@ -13,6 +13,7 @@
 
 	<script src="AC_RunActiveContent.js" language="javascript"></script>
 	<!-- CSS -->
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 	<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
 	<link href="css/nav.css" rel="stylesheet" type="text/css" media="screen">
 	<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>

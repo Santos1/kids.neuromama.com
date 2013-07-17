@@ -19,7 +19,10 @@ a:hover{font-family:"Trebuchet MS"; font-size:13px; color:#FFFFFF; text-decorati
 html { overflow-y:auto; }
 
 /* =body */
-body{background: #ffffff url(../images/layout/MainBackground.jpg) top center  no-repeat;}
+body{
+	font-family: 'Droid Sans', sans-serif;
+	background: #ffffff url(../images/layout/MainBackground.jpg) top center  no-repeat;
+}
 
 div#PageContainerOuter{width: 100%; background: url() center -488px no-repeat; position:relative; }
 
@@ -108,3 +111,150 @@ a.on:hover, a.off:hover, a.done:hover {text-decoration:underline;}
 .NoView{display: none;}
 
 .clearAll{ clear: both;}
+
+/*SEARCH BAR*/
+
+    
+    /*-------------------------------------*/
+    
+    .cf:before, .cf:after{
+      content:"";
+      display:table;
+    }
+    
+    .cf:after{
+      clear:both;
+    }
+
+    .cf{
+      zoom:1;
+    }
+
+    /*-------------------------------------*/	
+    
+    .search_neuro {
+        width: 200px;       
+        float: right;
+        padding-right: 50px;
+        margin-top: 5px;
+       
+    }
+    
+    .search_neuro input {
+        width: 154px;
+        height: 20px;
+        padding: 5px 2px;
+        float: left;    
+        font: bold 10px 'lucida sans', 'trebuchet MS', 'Tahoma';
+        border: 0;
+        background: #eee;
+        -moz-border-radius: 3px 0 0 3px;
+        -webkit-border-radius: 3px 0 0 3px;
+        border-radius: 3px 0 0 3px;      
+    }
+    
+    .search_neuro input:focus {
+        outline: 0;
+        background: #fff;
+        -moz-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+        -webkit-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+        box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+    }
+    
+    .search_neuro input::-webkit-input-placeholder {
+       color: #999;
+       font-weight: normal;
+       font-style: italic;
+    }
+    
+    .search_neuro input:-moz-placeholder {
+        color: #999;
+        font-weight: normal;
+        font-style: italic;
+    }
+    
+    .search_neuro input:-ms-input-placeholder {
+        color: #999;
+        font-weight: normal;
+        font-style: italic;
+    }    
+    
+    .search_neuro button {
+		overflow: visible;
+        position: relative;
+        float: right;
+        border: 0;
+        padding: 0;
+        cursor: pointer;
+        height: 20px;
+        width: 45px;
+        font: bold 10px 'lucida sans', 'trebuchet MS', 'Tahoma';
+        color: #fff;
+        text-transform: uppercase;
+        background: #0093BF;
+        -moz-border-radius: 0 3px 3px 0;
+        -webkit-border-radius: 0 3px 3px 0;
+        border-radius: 0 3px 3px 0;      
+        text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+    }   
+      
+    .search_neuro button:hover{		
+        background: #e54040;
+    }	
+      
+    .search_neuro button:active,
+    .search_neuro button:focus{   
+        background: #c42f2f;    
+    }
+    
+    .search_neuro button:before {
+        content: '';
+        position: absolute;
+        border-width: 8px 8px 8px 0;
+        border-style: solid solid solid none;
+        border-color: transparent #0093BF transparent;
+        top: 3px;
+        left: -8px;
+    }
+    
+    .search_neuro button:hover:before{
+        border-right-color: #e54040;
+    }
+    
+    .search_neuro button:focus:before{
+        border-right-color: #c42f2f;
+    }    
+    
+    .search_neuro button::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }
+.inner {
+	
+	margin: 0px auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	text-align: justify;
+}
+.innerclear{
+	
+	margin: 0px auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	text-align: justify;
+}
+.innerbold{
+	width: 995px;
+	margin: 0px auto;
+	
+	text-align: justify;
+}
+.sidebar { float:left;
+}
+.right_content{
+	float:right;
+	position:relative; 
+	width: 400px;
+}
