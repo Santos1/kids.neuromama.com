@@ -1,4 +1,5 @@
 <head>
+	<title>Neuromama Kids</title>
 	<link rel="shortcut icon" href="images/neuro_ico.ico" type="image/x-icon" />
 	<link rel="icon" href="images/neuro_ico.ico" type="image/ico" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 

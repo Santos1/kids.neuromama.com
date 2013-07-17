@@ -113,7 +113,13 @@
 				</li> 
 			</ul>
 		</div>
-		<div id="SubHeader"><span style="font-family: 'Didact Gothic',sans-serif; font-size: 13px; color: #fff"><strong style="font-size: 16px;">Fewer duplicates, more accurate returns, faster results, Frequent Searcher Rewards for gift certificates. Join now!</strong></span></div>
+		<div id="SubHeader">
+			<span style="font-family: 'Didact Gothic',sans-serif; font-size: 13px; color: #fff">
+				<strong style="font-size: 16px;">
+					Learning is a Treasure which follows owner everywhere - (Chinese Proverb)
+				</strong>
+			</span>
+		</div>
 		<!-- /HeaderNavigation -->
 	</div>
 </div>
