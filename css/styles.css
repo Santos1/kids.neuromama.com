@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* Bellagio CSS Document */
+
+
+/* =universals
+These rules are applied to all elements unless otherwise specified below.*/
+* { margin : 0 0px 0 0; 
+padding : 0; }
+h2, h3, h4, h5, p, ul, ol, hr { margin : 0 0px; padding: 0em; }
+
+/***** Removes the dotted outline in FireFox when image links are clicked on *****/
+a{font-family:"Trebuchet MS"; font-size:13px; color:#FFFFFF; text-decoration:none;}
+a:hover{font-family:"Trebuchet MS"; font-size:13px; color:#FFFFFF; text-decoration:underline;}
+
+
+/* =html */
+/*This creates a persistent scroll bar in Firefox to prevent page jump*/
+/*html { overflow: -moz-scrollbars-vertical !important; }*/
+html { overflow-y:auto; }
+
+/* =body */
+body{background: #ffffff url(../images/layout/MainBackground.jpg) top center  no-repeat;}
+
+div#PageContainerOuter{width: 100%; background: url() center -488px no-repeat; position:relative; }
+
+div#PageContainer{top:15px; width: 1015px; margin: 0 auto;  }
+
+
+/*************************************
+	Header Styles
+*************************************/
+div#HeaderContainer {
+	height: 137px;
+	width: 100%;
+	position: relative;
+	z-index: 20;
+	background: #000E52 url(../images/layout/Main-Background22.jpg) repeat-x;
+}
+
+div#HeaderContent{ width: 1050px; margin: 0 auto; height: 190px; background: url(../images/button/Header-Background.png) top center no-repeat; }
+div#SubHeader{padding-left: 100px; float: left; margin-top:10px; height: 20px;}
+
+div#HomeGalleryNavigation{ 
+	width: 600px;
+	height: 112px;
+	background: url(../images/Neuromama_Finance.png) center no-repeat;
+	background-size: 600px 112px;
+	top: 20px;
+	position: relative;
+	margin: 0 auto;
+}
+
+span.style1{
+	font-size: 12pt;
+	font-weight: bold;
+	color: #FFCC00;
+	text-decoration: underline;
+}
+span.style2{
+	font-size: 11pt;
+	font-weight: bold;
+	color: #FFCC00;
+}
+span.style3{
+    font-size: 11pt;
+	font-style: italic;
+	font-weight: bold;
+	color: #FFCC00;
+}
+span.style4{ 
+	font-size: small;
+	font-style: italic;
+	color: #FFCC00;
+} 
+
+/* for link style change */	
+a:link.on, a:visited.on {color: #904C39; text-decoration:none;}
+a:link.off, a:visited.off {color: #69563E; text-decoration:none;}
+a:link.done, a:visited.done {color: #69563E; text-decoration:none;}
+a.on:hover, a.off:hover, a.done:hover {text-decoration:underline;}
+
+
+.NoView{display: none;}
+
+.clearAll{ clear: both;}
