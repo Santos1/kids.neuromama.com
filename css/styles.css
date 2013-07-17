@@ -6,11 +6,14 @@
 These rules are applied to all elements unless otherwise specified below.*/
 * { margin : 0 0px 0 0; 
 padding : 0; }
+
 h2, h3, h4, h5, p, ul, ol, hr { margin : 0 0px; padding: 0em; }
 
-/***** Removes the dotted outline in FireFox when image links are clicked on *****/
-a{font-family:"Trebuchet MS"; font-size:13px; color:#FFFFFF; text-decoration:none;}
-a:hover{font-family:"Trebuchet MS"; font-size:13px; color:#FFFFFF; text-decoration:underline;}
+ul.simple{margin-left:75px;}
+
+/***** Removes the dotted outline in FireFox when image links are clicked on 
+*a{font-family:"Trebuchet MS"; font-size:13px; color:#FFFFFF; text-decoration:none;}
+a:hover{font-family:"Trebuchet MS"; font-size:13px; color:#FFFFFF; text-decoration:underline;}*/
 
 
 /* =html */
@@ -77,6 +80,19 @@ div#HomeGalleryNavigation{
 	font-style: italic;
 	color: #004660;
 }
+.style5{ 
+	font-size: 13pt;
+	font-style: italic;
+	font-weight: bold;
+	color: #6633CC;
+	text-decoration: underline;
+}
+.style6{
+	font-size: 14pt;
+	font-weight: bold;
+	color: #000080;
+}
+
 
 span.style1{
 	font-size: 12pt;
