@@ -50,6 +50,31 @@ div#HomeGalleryNavigation{
 	margin: 0 auto;
 }
 
+.style1{
+	font-size: 16pt;
+	font-weight: bold;
+	color: #004660;
+	text-decoration: underline;
+	text-align: center;
+}
+.style2{
+	font-size: 15pt;
+	font-weight: bold;
+	color: #004660;
+
+}
+.style3{
+    font-size: 12pt;
+	font-style: italic;
+	font-weight: bold;
+	color: #004660;
+}
+.style4{ 
+	font-size: small;
+	font-style: italic;
+	color: #004660;
+}
+
 span.style1{
 	font-size: 12pt;
 	font-weight: bold;

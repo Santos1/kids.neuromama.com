@@ -24,39 +24,21 @@
 					</ul> 
 				</li> 
 				
-				
-				<li onmouseover=painttab(2); onmouseout=unpainttab(2);><a href="#" onclick="return false;" class="btn-neuvid">Press Center  Investor relations  Charity</a>
+												<!-- 	Education for Kids		-->
+				<li onmouseover=painttab(2); onmouseout=unpainttab(2);><a href="education_kids.php" onclick="return true;" class="btn-neuvid">Kids</a>
 					<ul onmouseover=painttab(2); onmouseout=unpainttab(2);>
-						<li style="padding-top: 8px;"><a href="#" >Stock Information (8-K)</a></li>
-						<li style="padding-top: 8px;"><a href="#" >Financial Releases</a></li>
-						<li style="padding-top: 8px;"><a href="#" >Important Events</a></li>
-						<li style="padding-top: 8px;"><a href="#" >Disclaimers</a></li>
-						<li style="padding-top: 8px;"><a href="#" >Subscribe</a></li>
-						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#" >Contact Us</a></li>
 					</ul> 
 				</li> 
 				
-				
-				<li onmouseover=painttab(3); onmouseout=unpainttab(3);><a href="#" onclick="return false;" class="btn-neutab1">Management</a>
+												<!-- 	Education for Kids		-->
+				<li onmouseover=painttab(3); onmouseout=unpainttab(3);><a href="education_teenagers.php" onclick="return true;" class="btn-neutab1">Teenagers</a>
 					<ul onmouseover=painttab(3); onmouseout=unpainttab(3);>
-						<li style="padding-top: 8px;"><a href="#" >Press Attache</a></li>
-						<li style="padding-top: 8px;"><a href="#" >Lastest News</a></li>
-						<li style="padding-top: 8px;"><a href="#" >Press Releases</a></li>
-						<li style="padding-top: 8px;"><a href="#" >Write for Us</a></li>
-						<li style="padding-top: 8px;"><a href="#" >Subscribe</a></li>
-						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#" >Contact Us</a></li>
 					</ul> 
 				</li> 
 				
 				
-				<li onmouseover=painttab(4); onmouseout=unpainttab(4);><a href="#" onclick="return false;" class="btn-neutab2">Products</a>
+				<li onmouseover=painttab(4); onmouseout=unpainttab(4);><a href="education_adults.php" onclick="return true;" class="btn-neutab2">Adults</a>
 					<ul onmouseover=painttab(4); onmouseout=unpainttab(4);>
-					    <li style="padding-top: 8px;"><a href="#" >Aims & Principles</a></li>
-					    <li style="padding-top: 8px;"><a href="#" >Upcoming events</a></li>
-					    <li style="padding-top: 8px;"><a href="#" >Latest Actions</a></li>
-					    <li style="padding-top: 8px;"><a href="#" >Donate Event</a></li>
-					    <li style="padding-top: 8px;"><a href="#" >Cooperation</a></li>
-					    <li style="padding-top: 8px; padding-bottom: 5px;"><a href="#" >Contact Us</a></li>
 					</ul> 
 				</li> 
 				
