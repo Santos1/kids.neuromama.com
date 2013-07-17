@@ -6,8 +6,10 @@
 		<?php include 'navigation.php';?>
 		<div id="PageContainerOuter">
 			<div id="PageContainer">
+				<?php
+					include 'images_banner.php'; 
+				?>
 				<div class="innerclear">
-					</br>
 					<div class="style1">Education for Kids</div>
 					</br>
 					<div class="style2">What we learn with pleasure we never forget.</div>
@@ -18,7 +20,7 @@
 						</br>
 						
 						<div style="margin-left:20px" id="cat_2" class="style5">Assist your child with literacy</div>
-						<ul class="simple" id="link_2">
+						<ul class="cont-ul simple" id="link_2">
 							<li><a href="http://www.bbc.co.uk/skillswise/words/">http://www.bbc.co.uk/skillswise/words/</a></li>
 							<li><a href="http://www.meegenius.com/">http://www.meegenius.com/</a></li>
 							
@@ -43,7 +45,7 @@
 						</br>
 						
 						<div style="margin-left:20px" id="cat_3" class="style5">Assist your child with Mathematics:</div>
-						<ul class="simple" id="link_3">
+						<ul class="cont-ul simple" id="link_3">
 							<li><a href="http://www.bbc.co.uk/schools/ks2bitesize/english/">http://www.bbc.co.uk/schools/ks2bitesize/english/</a></li>
 							<li><a href="http://www.woodlands-junior.kent.sch.uk/maths/index.html">http://www.woodlands-junior.kent.sch.uk/maths/index.html</a></li>
 							<li><a href="http://mathplayground.com/">http://mathplayground.com/</a></li>
@@ -61,7 +63,7 @@
 						
 						
 						<div style="margin-left:20px" id="cat_4" class="style5">Assist your child with Science:</div>
-						<ul class="simple" id="link_4">							
+						<ul class="cont-ul simple" id="link_4">							
 							<li><a href="http://www.woodlands-junior.kent.sch.uk/revision/Science/index.html">http://www.woodlands-junior.kent.sch.uk/revision/Science/index.html</a></li>
 							<li><a href="http://www.bbc.co.uk/schools/ks2bitesize/english/">http://www.bbc.co.uk/schools/ks2bitesize/english/</a></li>
 							<li><a href="http://www.southbank.qm.qld.gov.au/sciencentre/">http://www.southbank.qm.qld.gov.au/sciencentre/</a></li>
@@ -75,7 +77,7 @@
 
 						</br>
 						<div style="margin-left:20px" id="cat_5" class="style5">Assist your child with Geography:</div>
-						<ul class="simple" id="link_5">
+						<ul class="cont-ul simple" id="link_5">
 							<li><a href="http://www.mywonderfulworld.org/toolsforadventure/index.html">http://www.mywonderfulworld.org/toolsforadventure/index.html</a></li>
 							<li><a href="https://www.cia.gov/library/publications/the-world-factbook/">https://www.cia.gov/library/publications/the-world-factbook/</a></li>
 							<li><a href="http://www.un.org/">http://www.un.org/</a></li>
@@ -84,7 +86,7 @@
 					
 					
 						<div id="kids_online" class="style6">Top 10 educational websites for kids</div>
-						<ul class="simple" id="link_6">
+						<ul class="cont-ul simple" id="link_6">
 							<li><a href="http://www.workitmom.com/quicktips/detail/7025">http://www.workitmom.com/quicktips/detail/7025</a></li>
 							<li><a href="http://www.kidsknowit.com/">http://www.kidsknowit.com/</a></li>
 							<li><a href="http://www.education.com/">http://www.education.com/</a></li>

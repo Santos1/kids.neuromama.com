@@ -8,8 +8,23 @@ These rules are applied to all elements unless otherwise specified below.*/
 padding : 0; }
 
 h2, h3, h4, h5, p, ul, ol, hr { margin : 0 0px; padding: 0em; }
+ul.simple li { padding:0px;  } 
+ul.simple li a { width:128px; min-height:143px;}
+ul.simple li a:hover { border:solid 8px #0291c9; }
+ul.simple li a img { width:128px; height:72px; }
+ul.simple span.title { font-size: 1.2em; margin-top:-3px; }
+ul.simple span.description { font-size: 1.0em; }
+/* Four-up games version */
+ul.simple.games li a { min-height:11.5em; }
+ul.simple.games span.title { font-size: 1.3em; margin-top:-1px; }
 
-ul.simple{margin-left:75px;}
+ul.cont-ul { margin-top:16px; }
+ul.cont-ul.games { margin-top:8px; }
+ul.cont-ul li { float:left; margin:0px 16px 16px 0px; padding:8px; }
+ul.cont-ul li a { float:left; border:solid 8px #003254; }
+ul.cont-ul li a img { display:block; margin-bottom: 8px; }
+ul.cont-ul span.title { display:block; font-size: 1.6em; margin:12px 0 4px; line-height:1em; }
+ul.cont-ul span.description { display:block; font-weight:normal; line-height:1.25em; }
 
 /***** Removes the dotted outline in FireFox when image links are clicked on 
 *a{font-family:"Trebuchet MS"; font-size:13px; color:#FFFFFF; text-decoration:none;}
