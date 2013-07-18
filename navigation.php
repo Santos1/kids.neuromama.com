@@ -33,13 +33,18 @@
 				</li> 
 				
 												<!-- 	Education for Kids		-->
-				<li onmouseover=painttab(2); onmouseout=unpainttab(2);><a href="education_kids.php" onclick="return true;" class="btn-neuvid">Kids</a>
+				<li onmouseover=painttab(2); onmouseout=unpainttab(2);><a href="#" onclick="return false;" class="btn-neuvid">Kids</a>
 					<ul onmouseover=painttab(2); onmouseout=unpainttab(2);>
+					<li style="padding-top: 8px;"><a href="education_kids.php">Kids online</a></li>
+					<li style="padding-top: 8px;"><a href="education_top5.php">Top 5</a></li>
+					<li style="padding-top: 8px;"><a href="education_games.php">Educational Games</a></li>
+					<li style="padding-top: 8px;"><a href="education_supplies.php">Educational Supplies/Software</a></li>
+					<li style="padding-top: 8px; padding-bottom: 5px"><a href="education_tutor.php">Tutors</a></li>
 					</ul> 
 				</li> 
 				
 												<!-- 	Education for Kids		-->
-				<li onmouseover=painttab(3); onmouseout=unpainttab(3);><a href="education_teenagers.php" onclick="return true;" class="btn-neutab1">Teenagers</a>
+				<li onmouseover=painttab(3); onmouseout=unpainttab(3);><a href="#" onclick="return false;" class="btn-neutab1">Teenagers</a>
 					<ul onmouseover=painttab(3); onmouseout=unpainttab(3);>
 					</ul> 
 				</li> 
@@ -124,7 +129,7 @@
 		<div id="SubHeader">
 			<span style="font-family: 'Didact Gothic',sans-serif; font-size: 13px; color: #fff">
 				<strong style="font-size: 16px;">
-								Learning is a Treasure which follows owner everywhere - (Chinese Proverb)
+					Learning is a Treasure which follows owner everywhere - (Chinese Proverb)
 				</strong>
 			</span>
 		</div>
