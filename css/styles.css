@@ -71,6 +71,8 @@ div#HomeGalleryNavigation{
 	margin: 0 auto;
 }
 
+
+
 .style1{
 	font-size: 16pt;
 	font-weight: bold;
@@ -106,7 +108,12 @@ div#HomeGalleryNavigation{
 	font-weight: bold;
 	color: #000080;
 }
-
+.style7{
+	font-size: 12pt;
+	font-weight: bold;
+	margin: center;
+	color: #004660;
+}
 
 span.style1{
 	font-size: 12pt;

@@ -12,10 +12,12 @@
 				<div class="innerclear">
 					<div class="style1">Education for Kids</div>
 					</br></br>					
-					<div id="frase1" style="position: relative; text-align: right; color: #CC1100; font-size: 12pt; font-weight: bold;">What we learn with pleasure we never forget.</div>
-					<div id="autor1" style="position: relative; text-align: right; margin-left:130px; color: #551100; font-size: 10pt; font-weight: bold;">-Alfred Mercier</div>
-					<div id="frase2" style="position: relative; text-align: right; color: #CC1100; font-size: 12pt; font-weight: bold;">Teachers who educated children deserved more honor than parents who merely gave</br>them birth; for bare life is furnished by the one, the other ensures a good life.</div>
-					<div id="autor2" style="position: relative; text-align: right; margin-left:130px; color: #551100; font-size: 10pt; font-weight: bold;">-Attributed to Aristotle</div>					
+					<div id="frase1" style="position: relative; text-align: right; color: #CC1100; font-size: 12pt; font-weight: bold;">Education is simply the soul of a society as it passes from one generation to another.</div>
+					<div id="autor1" style="position: relative; text-align: right; margin-left:130px; color: #551100; font-size: 10pt; font-weight: bold;">-G. K. Chesterson</div>
+					<div id="frase2" style="position: relative; text-align: right; color: #CC1100; font-size: 12pt; font-weight: bold;">Instruction ends in the school-room, but education ends only with life.</div>
+					<div id="autor2" style="position: relative; text-align: right; margin-left:130px; color: #551100; font-size: 10pt; font-weight: bold;">-Frederick W.Robertson</div>			
+					<div id="frase3" style="position: relative; text-align: right; color: #CC1100; font-size: 12pt; font-weight: bold;">The growth in secondary education in recent years is unprecedented.</br>The result is overcrowded classrooms filled with teenagers from</br>diverse social and cultural backgrounds.</div>
+					<div id="autor3" style="position: relative; text-align: right; margin-left:130px; color: #551100; font-size: 10pt; font-weight: bold;"></div>
 					</br></br></br>
 					
 						<div id="kids_online" class="style6">Education for Kids Online</div>
@@ -154,10 +156,13 @@
 	$('#frase1').hide();
 	$('#autor1').hide();	
 	$('#frase2').hide();
-	$('#autor2').hide();
-	var randf=Math.floor((Math.random()*2)+1);
+	$('#autor2').hide();	
+	$('#frase3').hide();
+	$('#autor3').hide();
+	var randf=Math.floor((Math.random()*3)+1);
 	switch(randf){
 		case 1:		$('#frase1').show();	$('#autor1').show(); 	break;
 		case 2:		$('#frase2').show();	$('#autor2').show(); 	break;
+		case 3:		$('#frase3').show();	$('#autor3').show(); 	break;
 	}
 </script>

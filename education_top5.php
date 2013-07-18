@@ -6,13 +6,17 @@
 		<?php include 'navigation.php';?>
 		<div id="PageContainerOuter">
 			<div id="PageContainer">
+				<?php
+					include 'images_banner.php'; 
+				?>
 				<div class="innerclear">
 					</br>
 					<div class="style1">Education for Kids</div>
-					</br>
-					<div class="style2">What we learn with pleasure we never forget.</div>
-					<div class="style3">Alfred Mercier</div>
+					</br></br>
+					<div style="position: relative; text-align: right; color: #CC1100; font-size: 12pt; font-weight: bold;">A child miseducated, is a child lost.</div>
+					<div style="position: relative; text-align: right; margin-left:130px; color: #551100; font-size: 10pt; font-weight: bold;">-John F. Kennedy</div>
 					</br></br></br>
+					
 					
 						<div id="kids_top5" class="style6">Top 5 educational websites for kids</div>
 						</br>

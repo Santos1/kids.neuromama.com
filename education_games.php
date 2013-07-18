@@ -6,14 +6,16 @@
 		<?php include 'navigation.php';?>
 		<div id="PageContainerOuter">
 			<div id="PageContainer">
+				<?php
+					include 'images_banner.php'; 
+				?>
 				<div class="innerclear">
 					</br>
 					<div class="style1">Education for Kids</div>
-					</br>
-					<div class="style2">What we learn with pleasure we never forget.</div>
-					<div class="style3">Alfred Mercier</div>
+					</br></br>
+					<div style="position: relative; text-align: right; color: #CC1100; font-size: 12pt; font-weight: bold;">It is the supreme art of the teacher to awaken joy in creative expression and knowledge.</div>
+					<div style="position: relative; text-align: right; margin-left:130px; color: #551100; font-size: 10pt; font-weight: bold;">-Albert Einstein</div>
 					</br></br></br>
-
 						
 						<div id="kids_games" class="style6">Kids Education Games</div>
 						<ul class="simple" id="link_games">

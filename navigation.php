@@ -43,9 +43,14 @@
 					</ul> 
 				</li> 
 				
-												<!-- 	Education for Kids		-->
+												<!-- 	Education for Teenagers		-->
 				<li onmouseover=painttab(3); onmouseout=unpainttab(3);><a href="#" onclick="return false;" class="btn-neutab1">Teenagers</a>
 					<ul onmouseover=painttab(3); onmouseout=unpainttab(3);>
+					<li style="padding-top: 8px;"><a href="education_teenagers.php">Teens Online</a></li>
+					<li style="padding-top: 8px;"><a href="education_top5.php">Teen</a></li>
+					<li style="padding-top: 8px;"><a href="education_games.php">Teen</a></li>
+					<li style="padding-top: 8px;"><a href="education_supplies.php">Teen</a></li>
+					<li style="padding-top: 8px; padding-bottom: 5px"><a href="education_tutor.php">Teen</a></li>
 					</ul> 
 				</li> 
 				
