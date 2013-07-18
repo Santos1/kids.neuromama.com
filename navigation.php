@@ -46,17 +46,18 @@
 												<!-- 	Education for Teenagers		-->
 				<li onmouseover=painttab(3); onmouseout=unpainttab(3);><a href="#" onclick="return false;" class="btn-neutab1">Teenagers</a>
 					<ul onmouseover=painttab(3); onmouseout=unpainttab(3);>
-					<li style="padding-top: 8px;"><a href="education_teenagers.php">Teens Online</a></li>
-					<li style="padding-top: 8px;"><a href="education_top5.php">Teen</a></li>
-					<li style="padding-top: 8px;"><a href="education_games.php">Teen</a></li>
-					<li style="padding-top: 8px;"><a href="education_supplies.php">Teen</a></li>
-					<li style="padding-top: 8px; padding-bottom: 5px"><a href="education_tutor.php">Teen</a></li>
+					<li style="padding-top: 8px;"><a href="education_teens_online.php">Teens Online</a></li>
+					<li style="padding-top: 8px;"><a href="education_teens_games.php">Games</a></li>
+					<li style="padding-top: 8px; padding-bottom: 5px"><a href="education_teens_tutor.php">Tutors</a></li>
 					</ul> 
 				</li> 
 				
 				
-				<li onmouseover=painttab(4); onmouseout=unpainttab(4);><a href="education_adults.php" onclick="return true;" class="btn-neutab2">Adults</a>
+				<li onmouseover=painttab(4); onmouseout=unpainttab(4);><a href="#" onclick="return false;" class="btn-neutab2">Adults</a>
 					<ul onmouseover=painttab(4); onmouseout=unpainttab(4);>
+					<li style="padding-top: 8px;"><a href="education_adults.php">Adult Education</a></li>
+					<li style="padding-top: 8px;"><a href="education_adults_higheducation.php">Higher education</a></li>
+					<li style="padding-top: 8px; padding-bottom: 5px"><a href="education_adults_career.php">Career education</a></li>
 					</ul> 
 				</li> 
 				

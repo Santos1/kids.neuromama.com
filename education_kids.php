@@ -46,7 +46,7 @@
 						</ul>
 						</br>
 						
-						<div style="margin-left:20px" id="cat_2" class="style5">Assist your child with Mathematics:</div>
+							<div style="margin-left:20px" id="cat_2" class="style5">Assist your child with Mathematics:</div>
 						<ul class="cont-ul simple" id="link_2">
 							<li><a href="http://www.bbc.co.uk/schools/ks2bitesize/english/" target="_blank">http://www.bbc.co.uk/schools/ks2bitesize/english/</a></li>
 							<li><a href="http://www.woodlands-junior.kent.sch.uk/maths/index.html" target="_blank">http://www.woodlands-junior.kent.sch.uk/maths/index.html</a></li>
