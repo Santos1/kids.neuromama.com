@@ -21,8 +21,8 @@
 						<div id="kids_online" class="style6">Education for Kids Online</div>
 						</br>
 						
-						<div style="margin-left:20px" id="cat_1" class="style5">Assist your child with literacy</div>
-						<ul class="cont-ul simple" id="link_1">
+						<div style="margin-left:20px width:1015px;" id="cat_1" class="style5">Assist your child with literacy</div>
+						<ul id="link_1">
 							<li><a href="http://www.bbc.co.uk/skillswise/words/" target="_blank">http://www.bbc.co.uk/skillswise/words/</a></li>
 							<li><a href="http://www.meegenius.com/" target="_blank">http://www.meegenius.com/</a></li>
 							
