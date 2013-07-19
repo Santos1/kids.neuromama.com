@@ -108,13 +108,9 @@
 				</li> 
 				
 				
-				<li onmouseover=painttab(8); onmouseout=unpainttab(8);><a href="#" onclick="return false;" class="btn-neuvac1">Rules & Principles</a>
+				<li onmouseover=painttab(8); onmouseout=unpainttab(8);><a href="#" onclick="return false;" class="btn-neuvac1">cartoons</a>
 					<ul onmouseover=painttab(8); onmouseout=unpainttab(8);>
-						<li style="padding-top: 8px;"><a href="#" >Ads Policy</a></li>
-						<li style="padding-top: 8px;"><a href="#" >Offer Ads Space</a></li>
-						<li style="padding-top: 8px;"><a href="#" >Buy Ads Space</a></li>
-						<li style="padding-top: 8px;"><a href="#" >Ads Specifications</a></li>
-						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#" >Contact Us</a></li>
+						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="cartoons.php" >Cartoons channel</a></li>
 					</ul> 
 				</li> 
 				
