@@ -13,19 +13,18 @@
 					</br>
 					<div class="style1">Education for Kids</div>
 					</br></br>
-					<div style="position: relative; text-align: right; color: #CC1100; font-size: 12pt; font-weight: bold;">A child miseducated, is a child lost.</div>
-					<div style="position: relative; text-align: right; margin-left:130px; color: #551100; font-size: 10pt; font-weight: bold;">-John F. Kennedy</div>
-					</br></br></br>
-					
+					<div class="quote" style="position: relative; text-align: right; color: #CC1100;">A child miseducated, is a child lost.</div>
+					<div class="autor_quote"style="position: relative; text-align: right; margin-left:130px;">-John F. Kennedy</div>
+					</br></br>
 					
 						<div id="kids_top5" class="style6">Top 5 educational websites for kids</div>
 						</br>
-						<ul class="simple" id="link_top5">
-							<li><a href="http://www.workitmom.com/quicktips/detail/7025" target="_blank">http://www.workitmom.com/quicktips/detail/7025</a></li>
-							<li><a href="http://www.kidsknowit.com/" target="_blank">http://www.kidsknowit.com/</a></li>
-							<li><a href="http://www.education.com/" target="_blank">http://www.education.com/</a></li>
-							<li><a href="http://www.education.com/worksheets/" target="_blank">http://www.education.com/worksheets/</a></li>
-							<li><a href="http://www.freeeducationalwebsites.com/" target="_blank">http://www.freeeducationalwebsites.com/</a></li>
+						<ul id="link_top5">
+							<a class="simple2" href="http://www.workitmom.com/quicktips/detail/7025" target="_blank"><span>Workitmom</span></a>
+							<a class="simple1" href="http://www.kidsknowit.com/" target="_blank"><span>Kids Know it</span></a>
+							<a class="simple2" href="http://www.education.com/" target="_blank"><span>Education.com</span></a>
+							<a class="simple1" href="http://www.education.com/worksheets/" target="_blank"><span>Education worksheets</span></a>
+							<a class="simple2" href="http://www.freeeducationalwebsites.com/" target="_blank"><span>Free eduational Sites</span></a>
 						</ul>
 						</br>
 

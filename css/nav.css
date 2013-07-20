@@ -69,10 +69,10 @@ a.btn-neuvac2.active {background:url(../images/button/on/9.png) no-repeat;}
 #nav ul {position:absolute; top:68px; left:-3px; display:none; margin:0; padding:0; list-style:none;}
 *:first-child+html #nav ul {width:160px;}
 
-#nav ul li {width:160px; float:left; text-align:center; padding:0; background:#000; filter:alpha(opacity=70); -moz-opacity: .8; -khtml-opacity: .8; opacity: .8;}
+#nav ul li {width:160px; float:left; text-align:center; padding:0; background:#96C7FF; filter:alpha(opacity=70); -moz-opacity: .8; -khtml-opacity: .8; opacity: .8;}
 ul#nav li {padding:0;}
 /* display block will make the link fill the whole area of LI */
-#nav ul a {display:block; padding: 0px 0px; color: #C5A88D; text-decoration:none;}
+#nav ul a {display:block; padding: 0px 0px; color: #000; text-decoration:none;}
 #nav ul a:hover {color:#fff;}
 
 /* fix ie6 small issue */

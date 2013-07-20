@@ -12,25 +12,25 @@
 				<div class="innerclear">
 					<div class="style1">Education for Teens</div>
 					</br></br>					
-					<div id="frase1" style="position: relative; text-align: right; color: #CC1100; font-size: 12pt; font-weight: bold;">Education is simply the soul of a society as it passes from one generation to another.</div>
-					<div id="autor1" style="position: relative; text-align: right; margin-left:130px; color: #551100; font-size: 10pt; font-weight: bold;">-G. K. Chesterson</div>
-					<div id="frase2" style="position: relative; text-align: right; color: #CC1100; font-size: 12pt; font-weight: bold;">Instruction ends in the school-room, but education ends only with life.</div>
-					<div id="autor2" style="position: relative; text-align: right; margin-left:130px; color: #551100; font-size: 10pt; font-weight: bold;">-Frederick W.Robertson</div>			
-					</br></br></br>
+					<div id="frase1" style="position: relative; text-align: right; color: #CC1100; ">Education is simply the soul of a society as it passes from one generation to another.</div>
+					<div id="autor1" style="position: relative; text-align: right; margin-left:130px; color: #551100; ">-G. K. Chesterson</div>
+					<div id="frase2" style="position: relative; text-align: right; color: #CC1100; ">Instruction ends in the school-room, but education ends only with life.</div>
+					<div id="autor2" style="position: relative; text-align: right; margin-left:130px; color: #551100;">-Frederick W.Robertson</div>			
+					</br></br>
 					
 						<div id="teens_online" class="style6">Teens Online</div>
-						<ul class="simple" id="link_online">
+						<ul id="link_online">
 						</br>
-							<li><a href="http://distancelearn.about.com/od/virtualhighschools/a/teensonline.htm" target="_blank">http://distancelearn.about.com/od/virtualhighschools/a/teensonline.htm</a></li>
-							<li><a href="http://www.down-syndrome.org/information/reading/adolescent/" target="_blank">http://www.down-syndrome.org/information/reading/adolescent/</a></li>
-							<li><a href="http://www.education.com/age/teen-years/" target="_blank">http://www.education.com/age/teen-years/</a></li>
-							<li><a href="http://unesdoc.unesco.org/images/0012/001293/129363e.pdf" target="_blank">http://unesdoc.unesco.org/images/0012/001293/129363e.pdf</a></li>
-							<li><a href="http://teenlifelines.net/?gelci=military+schools&grp=military+schools&gclid=CIvOwtSXha8CFUUHRQodxX2B2g" target="_blank">http://teenlifelines.net/?gelci=military+schools&grp=military+schools&gclid=CIvOwtSXha8CFUUHRQodxX2B2g</a></li>
-							<li><a href="http://www.sexetc.org/" target="_blank">http://www.sexetc.org/</a></li>
-							<li><a href="http://www.parentingteens.com/forums/forum/education/" target="_blank">http://www.parentingteens.com/forums/forum/education/</a></li>
-							<li><a href="http://character-in-action.com/character-education-teenagers-enjoy/" target="_blank">http://character-in-action.com/character-education-teenagers-enjoy/</a></li>
-							<li><a href="http://www.bygpub.com/books/tg2rw/tg2rwtoc.htm" target="_blank">http://www.bygpub.com/books/tg2rw/tg2rwtoc.htm</a></li>
-							<li><a href="http://www.bygpub.com/books/tg2rw/chap6excerpt.htm" target="_blank">http://www.bygpub.com/books/tg2rw/chap6excerpt.htm</a></li>
+							<a class="simple" href="http://distancelearn.about.com/od/virtualhighschools/a/teensonline.htm" target="_blank"><span>Distance Learn</span></a>
+							<a class="simple" href="http://www.down-syndrome.org/information/reading/adolescent/" target="_blank"><span>Down-Syndrome</span></a>
+							<a class="simple" href="http://www.education.com/age/teen-years/" target="_blank"><span>Education Teens</span></a>
+							<a class="simple" href="http://unesdoc.unesco.org/images/0012/001293/129363e.pdf" target="_blank"><span>Unesco</span></a>
+							<a class="simple" href="http://teenlifelines.net/?gelci=military+schools&grp=military+schools&gclid=CIvOwtSXha8CFUUHRQodxX2B2g" target="_blank"><span>Teen Lifes</span></a>
+							<a class="simple" href="http://www.sexetc.org/" target="_blank"><span>Sextc</span></a>
+							<a class="simple" href="http://www.parentingteens.com/forums/forum/education/" target="_blank"><span>Parenting Teens</span></a>
+							<a class="simple" href="http://character-in-action.com/character-education-teenagers-enjoy/" target="_blank"><span>Character In Action</span></a>
+							<a class="simple" href="http://www.bygpub.com/books/tg2rw/tg2rwtoc.htm" target="_blank"><span>ByGPUG</span></a>
+							<a class="simple" href="http://www.bygpub.com/books/tg2rw/chap6excerpt.htm" target="_blank"><span>ByGPUG experts</span></a>
 						</ul>
 						</br>
 						

@@ -8,9 +8,38 @@ These rules are applied to all elements unless otherwise specified below.*/
 padding : 0; }
 
 h2, h3, h4, h5, p, ul, ol, hr { margin : 0 0px; padding: 0em; }
+
+/***** Removes the dotted outline in FireFox when image links are clicked on 
+*a{font-family:"Trebuchet MS"; font-size:13px; color:#FFFFFF; text-decoration:none;}
+a:hover{font-family:"Trebuchet MS"; font-size:13px; color:#FFFFFF; text-decoration:underline;}*/
+
+.header_span{
+    display: inline-block;
+    padding: 7px;
+    background-color: #FFBC84;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(hsla(338, 90%, 80%, .8)), to(hsla(338, 90%, 70%, .2)));
+    background-image: -webkit-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+    background-image: -moz-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+    background-image: -o-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+    -moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+    font-family: 'Droid Sans', Arial, sans-serif;
+    line-height: 1;
+    text-shadow: 0 -1px 1px rgba(175, 49, 95, .7);
+    -webkit-transition: background-color .2s ease-in-out, -webkit-transform .1s ease-in-out;
+    -moz-transition: background-color .2s ease-in-out, -moz-transform .1s ease-in-out;
+    -o-transition: background-color .2s ease-in-out, -o-transform .1s ease-in-out;
+    transition: background-color .2s ease-in-out, transform .1s ease-in-out;
+}
+
+
 .simple {
     display: inline-block;
-    margin: 5px;
+    margin: 10px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
@@ -21,14 +50,13 @@ h2, h3, h4, h5, p, ul, ol, hr { margin : 0 0px; padding: 0em; }
     -moz-transition: -moz-box-shadow .1s ease-in-out;
     -o-transition: -o-box-shadow .1s ease-in-out;
     transition: box-shadow .1s ease-in-out;
-    font-size: 15px;
+    font-size: 25px;
     color: #fff;
 }
 
-.simple a,span {
-    
+.simple span {
     display: inline-block;
-    padding: 5px 10px;
+    padding: 10px 20px;
     background-color: #ec528d;
     background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(hsla(338, 90%, 80%, .8)), to(hsla(338, 90%, 70%, .2)));
     background-image: -webkit-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
@@ -40,7 +68,7 @@ h2, h3, h4, h5, p, ul, ol, hr { margin : 0 0px; padding: 0em; }
     -webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
     -moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
     box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
-    font-family: 'Pacifico', Arial, sans-serif;
+    font-family: 'Droid Sans', Arial, sans-serif;
     line-height: 1;
     text-shadow: 0 -1px 1px rgba(175, 49, 95, .7);
     -webkit-transition: background-color .2s ease-in-out, -webkit-transform .1s ease-in-out;
@@ -66,25 +94,152 @@ h2, h3, h4, h5, p, ul, ol, hr { margin : 0 0px; padding: 0em; }
     -o-transform: translate(0, 4px);
     transform: translate(0, 4px);
 }
-/***** Removes the dotted outline in FireFox when image links are clicked on 
-*a{font-family:"Trebuchet MS"; font-size:13px; color:#FFFFFF; text-decoration:none;}
-a:hover{font-family:"Trebuchet MS"; font-size:13px; color:#FFFFFF; text-decoration:underline;}*/
 
+.simple1 {
+    display: inline-block;
+    margin: 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow:    0 8px 0 #c5376d, 0 15px 20px rgba(0, 0, 0, .35);
+    -moz-box-shadow: 0 8px 0 #c5376d, 0 15px 20px rgba(0, 0, 0, .35);
+    box-shadow: 0 8px 0 #c5376d, 0 15px 20px rgba(0, 0, 0, .35);
+    -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+    -moz-transition: -moz-box-shadow .1s ease-in-out;
+    -o-transition: -o-box-shadow .1s ease-in-out;
+    transition: box-shadow .1s ease-in-out;
+    font-size: 25px;
+    color: #fff;
+}
 
-/* =html */
+.simple1 span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #641B00;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(hsla(338, 90%, 80%, .8)), to(hsla(338, 90%, 70%, .2)));
+    background-image: -webkit-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+    background-image: -moz-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+    background-image: -o-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+    -moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+    font-family: 'Droid Sans', Arial, sans-serif;
+    line-height: 1;
+    text-shadow: 0 -1px 1px rgba(175, 49, 95, .7);
+    -webkit-transition: background-color .2s ease-in-out, -webkit-transform .1s ease-in-out;
+    -moz-transition: background-color .2s ease-in-out, -moz-transform .1s ease-in-out;
+    -o-transition: background-color .2s ease-in-out, -o-transform .1s ease-in-out;
+    transition: background-color .2s ease-in-out, transform .1s ease-in-out;
+}
+
+.simple1:hover span {
+    background-color: #641B20;
+    text-shadow: 0 -1px 1px rgba(175, 49, 95, .9), 0 0 5px rgba(255, 255, 255, .8);
+}
+
+.simple1:active, .simple1:focus {
+    -webkit-box-shadow:    0 8px 0 #c5376d, 0 12px 10px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 8px 0 #c5376d, 0 12px 10px rgba(0, 0, 0, .3);
+    box-shadow:    0 8px 0 #c5376d, 0 12px 10px rgba(0, 0, 0, .3);
+}
+
+.simple1:active span {
+    -webkit-transform: translate(0, 4px);
+    -moz-transform: translate(0, 4px);
+    -o-transform: translate(0, 4px);
+    transform: translate(0, 4px);
+}
+
+.simple2 {
+    display: inline-block;
+    margin: 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow:    0 8px 0 #c5376d, 0 15px 20px rgba(0, 0, 0, .35);
+    -moz-box-shadow: 0 8px 0 #c5376d, 0 15px 20px rgba(0, 0, 0, .35);
+    box-shadow: 0 8px 0 #c5376d, 0 15px 20px rgba(0, 0, 0, .35);
+    -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+    -moz-transition: -moz-box-shadow .1s ease-in-out;
+    -o-transition: -o-box-shadow .1s ease-in-out;
+    transition: box-shadow .1s ease-in-out;
+    font-size: 25px;
+    color: #fff;
+}
+
+.simple2 span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(219,87,5,1);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(hsla(338, 90%, 80%, .8)), to(hsla(338, 90%, 70%, .2)));
+    background-image: -webkit-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+    background-image: -moz-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+    background-image: -o-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+    -moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+    font-family: 'Droid Sans', Arial, sans-serif;
+    line-height: 1;
+    text-shadow: 0 -1px 1px rgba(175, 49, 95, .7);
+    -webkit-transition: background-color .2s ease-in-out, -webkit-transform .1s ease-in-out;
+    -moz-transition: background-color .2s ease-in-out, -moz-transform .1s ease-in-out;
+    -o-transition: background-color .2s ease-in-out, -o-transform .1s ease-in-out;
+    transition: background-color .2s ease-in-out, transform .1s ease-in-out;
+}
+
+.simple2:hover span {
+    background-color: rgba(219,87,9,9);
+    text-shadow: 0 -1px 1px rgba(175, 49, 95, .9), 0 0 5px rgba(255, 255, 255, .8);
+}
+
+.simple2:active, .simple2:focus {
+    -webkit-box-shadow:    0 8px 0 #c5376d, 0 12px 10px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 8px 0 #c5376d, 0 12px 10px rgba(0, 0, 0, .3);
+    box-shadow:    0 8px 0 #c5376d, 0 12px 10px rgba(0, 0, 0, .3);
+}
+
+.simple2:active span {
+    -webkit-transform: translate(0, 4px);
+    -moz-transform: translate(0, 4px);
+    -o-transform: translate(0, 4px);
+    transform: translate(0, 4px);
+}
+
+/* =html rgba(219,87,5,1)*/
 /*This creates a persistent scroll bar in Firefox to prevent page jump*/
 /*html { overflow: -moz-scrollbars-vertical !important; }*/
 html { overflow-y:auto; }
 
 /* =body */
 body{
-	font-family: 'Droid Sans', sans-serif;
-	background: #ffffff url(../images/layout/MainBackground.jpg) top center  no-repeat;
+	font-family: 'Chewy', sans-serif;
+    font-size: 20px;
+	background: #ffffff url(../images/layout/MainBackground-Back.jpg) top center  no-repeat;
 }
+.block_topic_post {
+    width:600px;
+    float: left;
+    padding:8px 8px 0px;
+    position:relative;
+    
+    background-color:#ffffff;
+    border:1px solid #ededed;
+    
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+   
+}
+ .sidebar { float:right;width:250px;}
+div#PageContainerOuter{width: 100%;  position:relative; }
 
-div#PageContainerOuter{width: 100%; background: url() center -488px no-repeat; position:relative; }
-
-div#PageContainer{top:15px; width: 1015px; margin: 0 auto;  }
+div#PageContainer{top:15px; width: 1015px;background: url(../images/layout/MainBackground-Front.jpg) no-repeat; margin: 0 auto; }
 
 
 /*************************************
@@ -95,7 +250,7 @@ div#HeaderContainer {
 	width: 100%;
 	position: relative;
 	z-index: 20;
-	background: #000E52 url(../images/layout/Main-Background22.jpg) repeat-x;
+
 }
 
 div#HeaderContent{ width: 1050px; margin: 0 auto; height: 190px; background: url(../images/button/Header-Background.png) top center no-repeat; }
@@ -114,22 +269,21 @@ div#HomeGalleryNavigation{
 
 
 .style1{
-	font-size: 16pt;
-	font-weight: bold;
+	font-size: 29pt;
 	color: #004660;
-	text-decoration: underline;
 	text-align: center;
+    background-color: #5DFFA7;
 }
 .style2{
-	font-size: 15pt;
+	font-size: 19pt;
 	font-weight: bold;
 	color: #004660;
 
 }
 .style3{
-    font-size: 12pt;
+    font-size: 18pt;
 	font-style: italic;
-	font-weight: bold;
+	
 	color: #004660;
 }
 .style4{ 
@@ -138,42 +292,37 @@ div#HomeGalleryNavigation{
 	color: #004660;
 }
 .style5{ 
-	font-size: 13pt;
+	font-size: 18pt;
 	
-	font-weight: bold;
 	color: #6633CC;
 }
 .style6{
-	font-size: 14pt;
-	font-weight: bold;
+	font-size: 19pt;
 	color: #000080;
 }
 .style7{
-	font-size: 12pt;
-	font-weight: bold;
+	font-size: 18pt;
 	margin: center;
 	color: #004660;
 }
 
 span.style1{
-	font-size: 12pt;
-	font-weight: bold;
+	font-size: 19pt;
 	color: #FFCC00;
 	text-decoration: underline;
 }
 span.style2{
-	font-size: 11pt;
-	font-weight: bold;
+	font-size: 19pt;
 	color: #FFCC00;
 }
 span.style3{
-    font-size: 11pt;
+    font-size: 19pt;
 	font-style: italic;
-	font-weight: bold;
+	
 	color: #FFCC00;
 }
 span.style4{ 
-	font-size: small;
+	font-size: 19px;
 	font-style: italic;
 	color: #FFCC00;
 } 
