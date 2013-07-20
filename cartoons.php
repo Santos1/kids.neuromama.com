@@ -1,7 +1,6 @@
 <html>
 	<?php include 'header.php';?>
 	
-	
 	<title>Cartoons!</title>
 	<body>
         <?php include 'navigation.php';?>
@@ -10,14 +9,17 @@
 				<?php
 					include 'images_banner.php';
 				?>
-				</br>
-				<div class="style1" style="color: #9900CC">Cartoons!</div>
-				</br></br></br>
+				</br></br>
+				<div class="style1" style="font-size:25px; color: #9900CC">Cartoons!</div>
+				</br></br></br></br>
+				
+				
+				
 				<!--------------------------------------------------------------------------------------------------->
 							<!--		initialize plugin 	-->
 				<script src="http://code.jquery.com/jquery.min.js"></script>
 				<script src="js/youmax.min.js"></script>
-				<!--------------------------------------------------------------------------------------------------->				
+				<!--------------------------------------------------------------------------------------------------->			
 				
 				<style>
 					body {
@@ -26,16 +28,27 @@
 						text-align:center;
 					}
 					#youmax{width:100% !important;}
-					
 				</style>
 				
-				
+				<div class="style2"> Select your cartoon channel!</div>
 				<div class="innerclear">
 					<input type="Hidden" id="Whiz" value="http://www.youtube.com/user/WhizKid8881"/>
-					<input type="Hidden" id="80s" value="http://www.youtube.com/user/seriesmexico80s"/>
+					<input type="Hidden" id="CartoonHangover" value="http://www.youtube.com/user/CartoonHangover"/>
+					<input type="Hidden" id="Kidskioske" value="https://www.youtube.com/user/Kidskioske"/>
+					<input type="Hidden" id="KidsTV123" value="http://www.youtube.com/user/KidsTV123"/>
+					<input type="Hidden" id="NimbleToons" value="https://www.youtube.com/user/NimbleToons"/>
+					<input type="Hidden" id="OfficialPoppyCat" value="https://www.youtube.com/user/OfficialPoppyCat"/>
+					<input type="Hidden" id="PeppaPigCartoons2013" value="http://www.youtube.com/user/PeppaPigCartoons2013"/>
+					<input type="Hidden" id="peppavids123" value="http://www.youtube.com/user/peppavids123"/>
 					
-					<img style="width: 80px; height: 80px" src="http://i1.ytimg.com/i/2-K-dU4h3D3rk-CAZ0eBzQ/mq1.jpg?v=504cb004" type="button" value="Whiz" onclick="openvideos('#Whiz');"/>
-					<img style="width: 80px; height: 80px" src="http://i1.ytimg.com/i/LNz905xzQlEAlTmlm6u7Jg/mq1.jpg?v=51218926" type="button" value="80s" onclick="openvideos('#80s');"/>
+					<img style="width: 108px; height: 108px" src="images/easyscience.jpg" type="button" value="Whiz" onclick="openvideos('#Whiz');"/>
+					<img style="width: 108px; height: 108px" src="images/cartoonHangOver.jpg" type="button" value="CartoonHangover" onclick="openvideos('#CartoonHangover');"/>
+					<img style="width: 108px; height: 108px" src="images/kidskioske.jpg" type="button" value="Kidskioske" onclick="openvideos('#Kidskioske');"/>
+					<img style="width: 108px; height: 108px" src="images/kidstv123.png" type="button" value="KidsTV123" onclick="openvideos('#KidsTV123');"/>
+					<img style="width: 108px; height: 108px" src="images/NimbleToons.jpg" type="button" value="NimbleToons" onclick="openvideos('#NimbleToons');"/>
+					<img style="width: 108px; height: 108px" src="images/PoppyCat.jpg" type="button" value="OfficialPoppyCat" onclick="openvideos('#OfficialPoppyCat');"/>
+					<img style="width: 108px; height: 108px" src="images/PeppaPig.jpg" type="button" value="PeppaPigCartoons2013" onclick="openvideos('#PeppaPigCartoons2013');"/>
+					<img style="width: 108px; height: 108px" src="images/DisneyPrincess.jpg" type="button" value="peppavids123" onclick="openvideos('#peppavids123');"/>
 					
 					<script>
 					
@@ -52,10 +65,7 @@
 					</script>
 				</div>
 				<div id="youmax"></div>
-				
-				
-				
-				
+
 				
 						<!--		initialize old jquery	-->
 				<script type="text/javascript" src="js/commoncode.js"></script>
