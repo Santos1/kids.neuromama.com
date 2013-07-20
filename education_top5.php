@@ -10,8 +10,7 @@
 					include 'images_banner.php'; 
 				?>
 				<div class="innerclear">
-					</br>
-					<div class="style1">Education for Kids</div>
+					<div class="style1"><img src="images/titles/2.png"  height="96"></div>
 					</br></br>
 					<div class="quote" style="position: relative; text-align: right; color: #CC1100;">A child miseducated, is a child lost.</div>
 					<div class="autor_quote"style="position: relative; text-align: right; margin-left:130px;">-John F. Kennedy</div>

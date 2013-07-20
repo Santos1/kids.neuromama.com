@@ -59,41 +59,41 @@
 				</li> 
 				
 				
-				<li onmouseover=painttab(5); onmouseout=unpainttab(5);><a href="#" onclick="return false;" class="btn-neutab3">Projects</a>
+				<li onmouseover=painttab(5); onmouseout=unpainttab(5);><a href="#" onclick="return false;" class="btn-neutab3">Books</a>
 					<ul onmouseover=painttab(5); onmouseout=unpainttab(5);>
 						
-						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#" >Ct Us</a></li>
+						<!-- <li style="padding-top: 8px; padding-bottom: 5px;"><a href="#" >Ct Us</a></li> -->
 					</ul> 
 				</li> 
 				
 				
-				<li onmouseover=painttab(6); onmouseout=unpainttab(6);><a href="#" onclick="return false;" class="btn-neusmart1">Technologies</a>
+				<li onmouseover=painttab(6); onmouseout=unpainttab(6);><a href="#" onclick="return false;" class="btn-neusmart1">Movies</a>
 					<ul onmouseover=painttab(6); onmouseout=unpainttab(6);>
 					    
-					    <li style="padding-top: 8px; padding-bottom: 5px;"><a href="#" >N</a></li>
+					    <!-- <li style="padding-top: 8px; padding-bottom: 5px;"><a href="#" >N</a></li> -->
 					</ul> 
 				</li> 
 				
 				
-				<li onmouseover=painttab(7); onmouseout=unpainttab(7);><a href="#" onclick="return false;" class="btn-neusmart2">Advertisement</a>
+				<li onmouseover=painttab(7); onmouseout=unpainttab(7);><a href="#" onclick="return false;" class="btn-neusmart2">Video Games</a>
 					<ul onmouseover=painttab(7); onmouseout=unpainttab(7);>
 						
-						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#">Cs</a></li>
+						<!-- <li style="padding-top: 8px; padding-bottom: 5px;"><a href="#">Cs</a></li> -->
 					</ul> 
 				</li> 
 				
 				
-				<li onmouseover=painttab(8); onmouseout=unpainttab(8);><a href="#" onclick="return false;" class="btn-neuvac1">cartoons</a>
+				<li onmouseover=painttab(8); onmouseout=unpainttab(8);><a href="#" onclick="return false;" class="btn-neuvac1">Cartoons</a>
 					<ul onmouseover=painttab(8); onmouseout=unpainttab(8);>
 						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="cartoons.php" >Cartoons channel</a></li>
 					</ul> 
 				</li> 
 				
 				
-				<li onmouseover=painttab(9); onmouseout=unpainttab(9);><a href="#" onclick="return false;" class="btn-neuvac2">Contacts</a>
+				<li onmouseover=painttab(9); onmouseout=unpainttab(9);><a href="#" onclick="return false;" class="btn-neuvac2">Advise & Tips</a>
 					<ul onmouseover=painttab(9); onmouseout=unpainttab(9);>
-						
-						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#" >Co</a></li>
+						<!-- 
+						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#" >Co</a></li> -->
 					</ul> 
 				</li> 
 			</ul>

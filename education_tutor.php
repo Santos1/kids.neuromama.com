@@ -10,8 +10,7 @@
 					include 'images_banner.php'; 
 				?>
 				<div class="innerclear">
-					</br>
-					<div class="style1">Education for Kids</div>
+					<div class="style1"><img src="images/titles/2.png"  height="96"></div>
 					</br></br>
 					<div style="position: relative; text-align: right; color: #CC1100; font-size: 12pt;">I am not a teacher but an awakener.</div>
 					<div style="position: relative; text-align: right; margin-left:130px; color: #551100;">-Robert Frost</div>

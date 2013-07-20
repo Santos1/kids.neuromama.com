@@ -10,7 +10,7 @@
 					include 'images_banner.php'; 
 				?>
 				<div class="innerclear">
-					<div class="style1">Education for Adults</div>
+					<div class="style1"><img src="images/titles/4.png"  height="96"></div>
 					</br></br>					
 					<div id="frase1" style="position: relative; text-align: right; color: #CC1100;">It is in fact a part of the function of education to help us escape, not from our own time -- for we are bound by that -- but from the intellectual and emotional limitations of our time.</div>
 					<div id="autor1" style="position: relative; text-align: right; margin-left:130px; color: #551100; ">-T.S. Eliot</div>

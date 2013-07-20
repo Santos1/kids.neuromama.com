@@ -10,7 +10,7 @@
 					include 'images_banner.php'; 
 				?>
 				<div class="innerclear">
-					<div style="margin-left:20px" class="style1">Education for Kids</div>
+					<div class="style1"><img src="images/titles/2.png"  height="96"></div>
 					</br>				
 					<div id="frase1" class="quote" style="position: relative; text-align: right; color: #CC1100; ">What we learn with pleasure we never forget.</div>
 					<div id="autor1" class="autor_quote"style="position: relative; text-align: right; margin-left:130px; color: #551100;">-Alfred Mercier</div>

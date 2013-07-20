@@ -9,17 +9,17 @@
 				<?php
 					include 'images_banner.php';
 				?>
+				
+				<div class="style1"><img style="padding-left: 190px;"src="images/titles/8.png"  height="96"></div>
 				</br></br>
-				<div class="style1" style="font-size:25px; color: #9900CC">Cartoons!</div>
-				</br></br></br></br>
 				
 				
 				
-				<!--------------------------------------------------------------------------------------------------->
+				<!-------------------------------------------------------------------------------------------------- -->
 							<!--		initialize plugin 	-->
 				<script src="http://code.jquery.com/jquery.min.js"></script>
 				<script src="js/youmax.min.js"></script>
-				<!--------------------------------------------------------------------------------------------------->			
+				<!---------------------------------------------------- -->			
 				
 				<style>
 					body {
@@ -31,6 +31,7 @@
 				</style>
 				
 				<div class="style2"> Select your cartoon channel!</div>
+			</br></br>
 				<div class="innerclear">
 					<input type="Hidden" id="Whiz" value="http://www.youtube.com/user/WhizKid8881"/>
 					<input type="Hidden" id="CartoonHangover" value="http://www.youtube.com/user/CartoonHangover"/>

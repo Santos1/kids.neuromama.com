@@ -10,7 +10,7 @@
 					include 'images_banner.php'; 
 				?>
 				<div class="innerclear">
-					<div class="style1">Education for Adults</div>
+					<div class="style1"><img src="images/titles/4.png"  height="96"></div>
 					</br></br>					
 					<div id="frase1" style="position: relative; text-align: right; color: #CC1100; ">Let us never be betrayed into saying we have finished our education;</br> because that would mean we had stopped growing.</div>
 					<div id="autor1" style="position: relative; text-align: right; margin-left:130px; color: #551100; ">-Julia H. Gulliver</div>

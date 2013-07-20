@@ -10,8 +10,7 @@
 					include 'images_banner.php'; 
 				?>
 				<div class="innerclear">
-					</br>
-					<div class="style1">Education for Kids</div>
+					<div class="style1"><img src="images/titles/2.png"  height="96"></div>
 					</br></br>
 					<div style="position: relative; text-align: right; color: #CC1100; font-size: 12pt;">The important thing is not so much that every child should</br> be taught, as that every child should be given the wish to learn.</div>
 					<div style="position: relative; text-align: right; margin-left:130px; color: #551100;">-John Lubbock</div>
